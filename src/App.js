@@ -289,11 +289,13 @@ class App extends Component {
                         <div className="col-md ">
                             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
                             <style type="text/css">
-                                #mc_embed_signup {
-                                    background: #fff;
-                                    clear: left;
-                                    font: 1em inherit;
-                                }
+                                {
+                                    mc_embed_signup = {
+                                    background : "#fff",
+                                    clear : "left",
+                                    font : "1em inherit"
+                                    }
+                                };
                             </style>
                             <div id="mc_embed_signup">
                                 <form action="https://domains.us4.list-manage.com/subscribe/post?u=da48ecb7a5439e08f4de18e0e&amp;id=539c6d6da7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
@@ -315,14 +317,14 @@ class App extends Component {
                             <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
                             <script type='text/javascript'>
                                 (function($) {
-                                    window.fnames = new Array();
-                                    window.ftypes = new Array();
-                                    fnames[0] = 'EMAIL';
-                                    ftypes[0] = 'email';
-                                    fnames[1] = 'FNAME';
-                                    ftypes[1] = 'text';
-                                    fnames[2] = 'LNAME';
-                                    ftypes[2] = 'text';
+                                    window.fnames = new Array(),
+                                    window.ftypes = new Array(),
+                                    fnames[0] = 'EMAIL',
+                                    ftypes[0] = 'email',
+                                    fnames[1] = 'FNAME',
+                                    ftypes[1] = 'text',
+                                    fnames[2] = 'LNAME',
+                                    ftypes[2] = 'text',
                                 }(jQuery));
                                 var $mcj = jQuery.noConflict(true);
                             </script>
