@@ -324,7 +324,7 @@ class App extends Component {
                                     fnames[1] = 'FNAME',
                                     ftypes[1] = 'text',
                                     fnames[2] = 'LNAME',
-                                    ftypes[2] = 'text',
+                                    ftypes[2] = 'text'
                                 }(jQuery));
                                 var $mcj = jQuery.noConflict(true);
                             </script>
