@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+import './App.css';
 
 const url =
   "https://domains.us4.list-manage.com/subscribe/post?u=da48ecb7a5439e08f4de18e0e&amp;id=539c6d6da7";
@@ -8,23 +9,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div
-          className="hero flex middle-xs"
+      {/*
+        <div className="hero flex middle-xs" 
           style={{
-            height:'100%',
-            background:'linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0))',
-            backgroundImage:"url(./img/ink.gif)"
-            }}
+            height: '100%', 
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0)), url("./img/ink.gif")'}}
         >
           <div className="hero-text "></div>
-          <svg
-            version="1.0 "
-            xmlns="http://www.w3.org/2000/svg "
-            width="1027.000000pt "
-            height="333.000000pt "
-            viewBox="0 0 1027.000000 333.000000 "
-            preserveAspectRatio="xMidYMid meet
-            "
+          <svg 
+            version={1.0 } 
+            xmlns="http://www.w3.org/2000/svg " 
+            width="1027.000000pt " 
+            height="333.000000pt " 
+            viewBox="0 0 1027.000000 333.000000 " 
+            preserveAspectRatio="xMidYMid meet"
           >
             {" "}
             <g
@@ -98,21 +96,15 @@ class App extends Component {
           <div className="hero-text "></div>
           <div className="col-md menu">
             <ul className="menu">
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-              <li>
-                <a href="./recruitment/index.html">Recruitment</a>
-              </li>
-              <li>
-                <a href="#leadership">Leadership</a>
-              </li>
-              <li>
-                <a href="#teams">Our Teams</a>
-              </li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="./recruitment/index.html">Recruitment</a></li>
+              <li><a href="#leadership">Leadership</a></li>
+              <li><a href="#teams">Our Teams</a></li>
             </ul>
           </div>
-        </div>
+        </div> 
+      */}
+
         <div className="wrapper">
           <main>
             <section className="application ">
@@ -209,8 +201,10 @@ class App extends Component {
             <section className="blurbs" id="benefits">
               <div className="container">
                 <div className="row margin-bottom-small center-xs">
-                  <div className="col-md">
+                <div className="col-md">
+                {/*
                     <img src="img/001-achievement.svg" className="icon " />
+                */}
                     <h3>Operations</h3>
                     <p>
                       <h5>
@@ -222,7 +216,9 @@ class App extends Component {
                     </p>
                   </div>
                   <div className="col-md">
+                  {/*
                     <img src="img/002-pencil.svg" className="icon" />
+                  */}
                     <h3>Marketing</h3>
                     <p>
                       <h5>
@@ -236,7 +232,9 @@ class App extends Component {
                 </div>
                 <div className="row center-xs">
                   <div className="col-md">
+                  {/*
                     <img src="img/003-idea.svg" className="icon" />
+                  */}
                     <h3>Events</h3>
                     <p>
                       <h5>
@@ -247,7 +245,9 @@ class App extends Component {
                     </p>
                   </div>
                   <div className="col-md">
+                  {/*
                     <img src="img/004-shopping-bag.svg" className="icon" />
+                  */}
                     <h3>Special Projects</h3>
                     <p>
                       <h5>
@@ -273,10 +273,12 @@ class App extends Component {
                 <div className="row team center-xs">
                   <div className="col-md image-col">
                     <div className="hover-outer-box">
+                    {/*
                       <img
-                        className="person-image"
+                        className="person-image" 
                         src="img/justin-goldstein.jpeg"
                       />
+                    */}
                       <div className="hover-inner-box ">
                         <div className="hover-content ">
                           <h3>Justin Goldstein</h3>
@@ -310,7 +312,12 @@ class App extends Component {
                   </div>
                   <div className="col-md image-col">
                     <div className="hover-outer-box ">
-                      <img className="person-image" src="img/irini.jpeg " />
+                    {/*
+                      <img 
+                        className="person-image" 
+                        src="img/irini.jpeg " 
+                        />
+                    */}
                       <div className="hover-inner-box ">
                         <div className="hover-content ">
                           <h3>Irini Fournier Vardinoyannis</h3>
@@ -337,10 +344,12 @@ class App extends Component {
                   </div>
                   <div className="col-md image-col">
                     <div className="hover-outer-box ">
-                      <img
-                        className="person-image"
-                        src="img/anna-gasner.JPG "
+                    {/*
+                      <img 
+                        className="person-image" 
+                        src="img/anna-gasner.JPG " 
                       />
+                    */}
                       <div className="hover-inner-box ">
                         <div className="hover-content ">
                           <h3>Anna Diaz Gessner</h3>
@@ -379,10 +388,12 @@ class App extends Component {
                 <div className="row team center-xs ">
                   <div className="col-md image-col">
                     <div className="hover-outer-box ">
+                    {/*
                       <img
                         className="person-image"
                         src="img/sid-sundaram.JPG "
                       />
+                    */}
                       <div className="hover-inner-box ">
                         <div className="hover-content ">
                           <h3>Sid Sundaram</h3>
@@ -416,10 +427,12 @@ class App extends Component {
                   </div>
                   <div className="col-md image-col">
                     <div className="hover-outer-box ">
+                    {/*
                       <img
                         className="person-image"
                         src="img/Shanaya-Munot2.jpeg "
                       />
+                    */}
                       <div className="hover-inner-box ">
                         <div className="hover-content ">
                           <h3>Shanaya Munot</h3>
@@ -448,10 +461,12 @@ class App extends Component {
                   </div>
                   <div className="col-md image-col">
                     <div className="hover-outer-box ">
+                    {/*
                       <img
                         className="person-image"
                         src="img/alex-giorno.jpeg"
                       />
+                    */}
                       <div className="hover-inner-box ">
                         <div className="hover-content ">
                           <h3>Alexandra Giorno</h3>
@@ -498,26 +513,35 @@ class App extends Component {
                 </div>
                 <div className="sponsor">
                   <a href="https://ripplematch.com/">
+                  {/*
                     <img src="img/ripple-match-logo.svg" />
+                  */}
                   </a>
                 </div>
                 <div className="sponsor">
-                  <a>
+                  <a href="https://developers.google.com/">
+                  {/*
                     <img src="img/google_developers_logo.png" />
+                  */}
                   </a>
                 </div>
                 <div className="sponsor">
                   <a href="https://monday.com">
+                  {/*
                     <img src="img/monday-logo.png" />
+                  */}
                   </a>
                 </div>
                 <div className="sponsor">
                   <a href="https://ixperience.co/">
+                  {/*
                     <img src="img/ixperience-logo.svg" />
+                  */}
                   </a>
                 </div>
               </div>
             </section>
+            
             <hr />
 
             <section className="newsletter ">
@@ -597,15 +621,18 @@ class App extends Component {
             </section>
           </main>
         </div>
+
         <footer>
           <div className="container ">
             <div className="row ">
               <div className="col-md center-xs ">
+              {/*
                 <img
                   src="img/gdt-logo.svg "
                   className="margin-bottom "
                   style="max-width: 300px; "
                 />
+              */}
               </div>
             </div>
             <div className="row margin-bottom-small ">
@@ -636,9 +663,11 @@ class App extends Component {
                   <li>
                     <a href="#leadership ">Leadership</a>
                   </li>
+                  {/*
                   <li>
                     <a href="./recruitment/index.html">Recruitment</a>
                   </li>
+                  */}
                   <li>
                     <a href="#contact ">Contact</a>
                   </li>
