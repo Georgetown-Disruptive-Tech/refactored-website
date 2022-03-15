@@ -10,7 +10,11 @@ class App extends Component {
       <div className="App">
         <div
           className="hero flex middle-xs"
-          style="height:100%; background-image: linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0)), url('./img/ink.gif'); "
+          style={{
+            height:'100%',
+            background:'linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0))',
+            backgroundImage:"url(./img/ink.gif)"
+            }}
         >
           <div className="hero-text "></div>
           <svg
