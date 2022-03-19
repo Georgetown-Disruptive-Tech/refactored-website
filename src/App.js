@@ -8,6 +8,32 @@ const url =
 class App extends Component {
   render() {
     return (
+//       <div className="App">
+//         <div className="wrapper">
+//           <main>
+//             <section className="application">
+//               <div className="col-md">
+//                 <div className="row">
+//                   <div className="col-md">
+//                     <h2 className="section-title">Recruitment</h2>
+//                   </div>
+//                 </div>
+                
+//                 <h5 className="section-title">
+//                   We no longer accept applications.
+//                   <br />Please check back Fall 2022.
+//                 </h5>
+//               </div>
+//             </section>
+//             </main>
+//           </div>
+//       </div>
+//     );
+//   }
+// }
+      // <div className="App"> 
+      //   Hello 
+      //   </div>
       <div className="App">
       {/*
         <div className="hero flex middle-xs" 
@@ -116,7 +142,7 @@ class App extends Component {
                 </div>
                 <h5 className="section-title ">
                   We no longer accept applications.
-                  <br>Please check back Fall 2022.</br>
+                  <br />Please check back Fall 2022.
                 </h5>
               </div>
             </section>
@@ -133,20 +159,20 @@ class App extends Component {
                       Founded on the hilltop of D.C., Georgetown Disruptive
                       Technology is the leading technology-oriented club at
                       Georgetown University.
-                      <br>
-                        <br>
+                      <br />
+                        <br />
                           <p>
                             {" "}
                             We offer various technical workshops and networking
                             events to students and invite guest speakers
                             throughout the academic year.{" "}
-                            <br>
+                            <br />
                               In addition, We also provide tech-consulting for
                               startups, organizations, or personal projects.{" "}
-                            </br>
+                            
                           </p>
-                        </br>
-                      </br>
+                        
+                      
                     </h5>
                   </div>
                 </div>
@@ -273,34 +299,34 @@ class App extends Component {
                 <div className="row team center-xs">
                   <div className="col-md image-col">
                     <div className="hover-outer-box">
-                    {/*
-                      <img
+                    
+                      {/* <img
                         className="person-image" 
                         src="img/justin-goldstein.jpeg"
-                      />
-                    */}
+                      /> */}
+                   
                       <div className="hover-inner-box ">
                         <div className="hover-content ">
                           <h3>Justin Goldstein</h3>
                           <p>
                             Justin is a Sophomore in the College studying
                             Computer Science and he is from Connecticut.
-                            <br>
-                              <br>
+                            <br />
+                              <br />
                                 Justin is interested in Neural Information
                                 Retrieval, Machine Learning, and software
                                 development.
-                              </br>
-                            </br>
+                              
+                            
                             He loves to run, go to the gym, and work with
                             startups.
-                            <br>
-                              <br>
+                            <br />
+                              <br />
                                 This semester, Justin is excited to lead GDT and
                                 execute its mission of bringing tech to
                                 Georgetown.
-                              </br>
-                            </br>
+                              
+                            
                           </p>
                         </div>
                       </div>
@@ -324,15 +350,15 @@ class App extends Component {
                           <p>
                             Irini is a Sophomore in the MSB studying marketing
                             and Computer Science.
-                            <br>
-                              <br>
+                            <br />
+                              <br />
                                 Irini generates online growth strategies and
                                 strengthens the brand design for several
                                 international sustainable companies/startups
                                 through her digital branding and marketing
                                 agency, GTech.{" "}
-                              </br>
-                            </br>
+                              
+                            
                           </p>
                         </div>
                       </div>
@@ -359,22 +385,22 @@ class App extends Component {
                             International Law. She minors in Women and Gender
                             Studies and dabbles in some Computer Science courses
                             at Georgetown.
-                            <br>
-                              <br>
+                            <br />
+                              <br />
                                 Anna is Spanish and American but spent most of
                                 her childhood in Belgium. She completed her
                                 final high school years in Miami.
-                              </br>
-                            </br>
-                            <br>
-                              <br>
+                              
+                            
+                            <br />
+                              <br />
                                 At GDT, Anna hopes to help bridge the gap
                                 between tech and political science at
                                 Georgetown. After graduating, Anna plans to go
                                 to law school, focusing on tech policy and cyber
                                 law.{" "}
-                              </br>
-                            </br>
+                              
+                            
                           </p>
                         </div>
                       </div>
@@ -401,21 +427,21 @@ class App extends Component {
                             Sid is a Senior in the SFS, pursuing a degree in
                             International Political Economy and a Minor in Art
                             History.
-                            <br>
-                              <br>
+                            <br />
+                              <br />
                                 He was raised in Hong Kong, Sydney, San
                                 Francisco, Shanghai and Beijing and is
                                 interested in the intersection between Art and
                                 Technology. Sid has a passion for developing the
                                 future of digital art, AI and content creation.{" "}
-                              </br>
-                            </br>
-                            <br>
-                              <br>
+                              
+                            
+                            <br />
+                              <br />
                                 In his spare time you can catch him obsessing
                                 over film and music.
-                              </br>
-                            </br>
+                              
+                            
                           </p>
                         </div>
                       </div>
@@ -441,15 +467,15 @@ class App extends Component {
                             of Services from Mumbai, India. She is majoring in
                             Science, Technology and International Affairs with a
                             concentration in Business Growth and development.
-                            <br>
-                              <br>
+                            <br />
+                              <br />
                                 Outside of GDT, she is the director of external
                                 outreach at Innovo Consulting and interns at
                                 Epsilon Acquisition Services. In her free time,
                                 she loves to travel, explore new restaurants, do
                                 adventure sports and binge watch films.
-                              </br>
-                            </br>
+                              
+                            
                           </p>
                         </div>
                       </div>
@@ -474,22 +500,22 @@ class App extends Component {
                             Alexandra is a junior in the College studying
                             Computer Science from Nice, France and grew up in
                             South Florida.
-                            <br>
-                              <br>
+                            <br />
+                              <br />
                                 Alexandra is interested in frontend development,
                                 product design, and product management. Outside
                                 of school, she loves to cook, travel, and find
                                 new music.{" "}
-                              </br>
-                            </br>
-                            <br>
-                              <br>
+                              
+                            
+                            <br />
+                              <br />
                                 This semester, Alexandra is exicted to expand
                                 Special Projects into several teams consisting
                                 of technical consulting, web development, and
                                 the Google Solutions Challenge.{" "}
-                              </br>
-                            </br>
+                              
+                            
                           </p>
                         </div>
                       </div>
@@ -642,14 +668,14 @@ class App extends Component {
                   Founded on the hilltop of D.C., Georgetown Disruptive
                   Technology is the leading technology-oriented club at
                   Georgetown University.{" "}
-                  <br>
-                    <br>
+                  <br />
+                    <br />
                       We offer various technical workshops and networking events
                       to students and invite guest speakers throughout the
                       academic year. We also provide tech-consulting for
                       startups, organizations, or personal projects.{" "}
-                    </br>
-                  </br>
+                    
+                  
                 </p>
               </div>
               <div className="col-md-4 ">
