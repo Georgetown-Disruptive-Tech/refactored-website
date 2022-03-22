@@ -1,0 +1,17 @@
+@media only screen and (max-width: 767px) {
+    .col-md .menu {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+    }
+    .menu ul li {
+        float: right;
+        font-size: 0.9em;
+        display: inline-table;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+}
