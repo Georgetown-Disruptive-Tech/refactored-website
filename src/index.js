@@ -1,5 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from "react";
+import ReactDOM, { render } from "react-dom";
+import GithubCorner from "react-github-corner";
+
+import MailchimpSubscribe from "react-mailchimp-subscribe";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -16,11 +19,6 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-import React, { Component } from "react";
-import { render } from "react-dom";
-import GithubCorner from "react-github-corner";
-
-import MailchimpSubscribe from "../../src";
 
 // a basic form
 const CustomForm = ({ status, message, onValidated }) => {
