@@ -18,7 +18,7 @@ import shoppingbag from "./img/004-shopping-bag.svg"
 import ixperience from "./img/ixperience-logo.svg"
 import gdtlogo from "./img/gdt-logo.svg"
 import banner from './img/banner.svg'
-import recruitment from "./recruitment";
+import Recruitment from './Recruitment'
 
 const url =
   "https://domains.us4.list-manage.com/subscribe/post?u=da48ecb7a5439e08f4de18e0e&amp;id=539c6d6da7";
@@ -143,7 +143,7 @@ class App extends Component {
           <div className="col-md menu">
             <ul className="menu">
               <li><a href="#contact">Contact</a></li>
-              <li><a href="./recruitment">Recruitment</a></li>
+              <li><a href="./Recruitment">Recruitment</a></li>
               <li><a href="#leadership">Leadership</a></li>
               <li><a href="#teams">Our Teams</a></li>
             </ul>
@@ -711,7 +711,7 @@ class App extends Component {
                     <a href="#leadership ">Leadership</a>
                   </li>
                   <li>
-                    <a href="./recruitment.js">Recruitment</a>
+                    <a href="./Recruitment">Recruitment</a>
                   </li>
                   <li>
                     <a href="#contact ">Contact</a>

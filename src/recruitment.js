@@ -5,45 +5,12 @@ import './css/flexboxgrid.min.css'
 import './css/normalize.min.css'
 import './css/responsive.css'
 import './css/theme.css'
-import justin from './img/justin-goldstein.jpeg'
-import achievement from './img/001-achievement.svg'
-import ripplematch from "./img/ripple-match-logo.svg"
-import pencil from "./img/002-pencil.svg"
-import idea from "./img/003-idea.svg"
-import shoppingbag from "./img/004-shopping-bag.svg"
-import ixperience from "./img/ixperience-logo.svg"
-import gdtlogo from "./img/gdt-logo.svg"
-import banner from './img/banner.svg'
 
 
 class Recruitment extends Component {
     render(){
         return(
             <div>
-  {/* Basic Page Needs ================================================== */}
-  <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-  <title>GDT | recruitment</title>
-  <meta name="description" content />
-  <meta name="author" content />
-  <meta name="keywords" content />
-  {/* Mobile Specific Metas ================================================== */}
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  {/* Fonts */}
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
-  {/* Favicon ================================================== */}
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png" style={{borderRadius: '50%'}} />
-  {/* Stylesheets ================================================== */}
-  {/* Bootstrap core CSS */}
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-  {/* Custom styles for this template */}
-  <link href="assets/css/style.css" rel="stylesheet" />
-  <link href="assets/css/calendar.scss" rel="stylesheet" />
-  <link href="assets/css/responsive.css" rel="stylesheet" />
-  {/* HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries */}
-  {/*[if lt IE 9]>   <![endif]*/}
   {/* <div class="loader" id="preloader"></div>
     <div class="loader-text" id="preloader-text">Your interest matters. Welcome to GDT.</div>
     <div class="loader-copyright" id="preloader-copyright">&copy; Georgetown Disruptive Technology. All Rights Reserved.</div> */}
