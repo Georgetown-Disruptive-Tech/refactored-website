@@ -139,7 +139,7 @@ class App extends Component {
           <div className="col-md menu">
             <ul className="menu">
               <li><a href="#contact">Contact</a></li>
-              <li><a href="./recruitment/index.html">Recruitment</a></li>
+              <li><a href="./recruitment/recruitment.js">Recruitment</a></li>
               <li><a href="#leadership">Leadership</a></li>
               <li><a href="#teams">Our Teams</a></li>
             </ul>
@@ -206,7 +206,7 @@ class App extends Component {
                     <p className="author">Education</p>
                     <p className="highlight">
                       We provide opportunities for novice tech enthusiasts to
-                      learn programming skills, graphic design and explore the
+                      learn programming skills, graphic design, and explore the
                       thematics of different branches of tech.
                     </p>
                   </div>
@@ -223,8 +223,8 @@ class App extends Component {
                     <p className="author">Projects</p>
                     <p className="highlight">
                       GDT members have the opportunity to engage in a range of
-                      partnership-driven special research, web design and tech
-                      consulting projects to enhance and expand their skillset.
+                      partnership-driven special research, web design, and tech
+                      consulting projects to enhance and expand their skill set.
                     </p>
                   </div>
                 </div>
@@ -251,7 +251,7 @@ class App extends Component {
                     <p>
                       <h5>
                         Responsible for the day-to-day running and logistics of
-                        the club. Oversight on budgeting, recruiting and the
+                        the club. Oversight on budgeting, recruiting, and the
                         newsletter. Often works in collaboration with other
                         teams to ensure operational efficiency.{" "}
                       </h5>
@@ -267,7 +267,7 @@ class App extends Component {
                         Working to maintain external and internal network, in
                         order to cultivate relationships and ensure
                         communicative clarity. Responsible for securing event
-                        guests, alumni relations and internal communication.
+                        guests, alumni relations, and internal communication.
                       </h5>
                     </p>
                   </div>
@@ -280,7 +280,7 @@ class App extends Component {
                     <h3>Events</h3>
                     <p>
                       <h5>
-                        Conceptualises and organises events, often working in
+                        Conceptualizes and organizes events, often working in
                         conjunction with the Public Relations team to formulate
                         a calendar. Lead team on the day of events.{" "}
                       </h5>
@@ -294,7 +294,7 @@ class App extends Component {
                     <p>
                       <h5>
                         Provides education for novice tech enthusiasts and
-                        spearheads internal research projects including making
+                        spearheads internal research projects, including making
                         this website. Work with Google Student Developers
                         community.
                       </h5>
@@ -327,7 +327,7 @@ class App extends Component {
                           <h3>Justin Goldstein</h3>
                           <p>
                             Justin is a Sophomore in the College studying
-                            Computer Science and he is from Connecticut.
+                            Computer Science, and he is from Connecticut.
                             <br />
                               <br />
                                 Justin is interested in Neural Information
@@ -349,7 +349,7 @@ class App extends Component {
                       </div>
                     </div>
                     <p className="team-name ">
-                      Justin Goldstein
+                      Justin Goldstein <br />
                       <span className="position ">President</span>
                     </p>
                   </div>
@@ -381,7 +381,7 @@ class App extends Component {
                       </div>
                     </div>
                     <p className="team-name ">
-                      Irini Fournier Vardinoyannis
+                      Irini Fournier Vardinoyannis <br />
                       <span className="position ">Vice President</span>
                     </p>
                   </div>
@@ -423,7 +423,7 @@ class App extends Component {
                       </div>
                     </div>
                     <p className="team-name ">
-                      Anna Diaz Gaessner
+                      Anna Diaz Gaessner <br />
                       <span className="position ">Head of Operations</span>
                     </p>
                   </div>
@@ -447,15 +447,15 @@ class App extends Component {
                             <br />
                               <br />
                                 He was raised in Hong Kong, Sydney, San
-                                Francisco, Shanghai and Beijing and is
+                                Francisco, Shanghai, and Beijing and is
                                 interested in the intersection between Art and
                                 Technology. Sid has a passion for developing the
-                                future of digital art, AI and content creation.{" "}
+                                future of digital art, AI, and content creation.{" "}
                               
                             
                             <br />
                               <br />
-                                In his spare time you can catch him obsessing
+                                In his spare time, you can catch him obsessing
                                 over film and music.
                               
                             
@@ -464,7 +464,7 @@ class App extends Component {
                       </div>
                     </div>
                     <p className="team-name ">
-                      Sid Sundaram
+                      Sid Sundaram <br />
                       <span className="position ">Head of Marketing</span>
                     </p>
                   </div>
@@ -482,7 +482,7 @@ class App extends Component {
                           <p>
                             Shanaya is a senior at the Walsh School of Foreign
                             of Services from Mumbai, India. She is majoring in
-                            Science, Technology and International Affairs with a
+                            Science, Technology, and International Affairs with a
                             concentration in Business Growth and development.
                             <br />
                               <br />
@@ -490,7 +490,7 @@ class App extends Component {
                                 outreach at Innovo Consulting and interns at
                                 Epsilon Acquisition Services. In her free time,
                                 she loves to travel, explore new restaurants, do
-                                adventure sports and binge watch films.
+                                adventure sports, and binge watch films.
                               
                             
                           </p>
@@ -498,7 +498,7 @@ class App extends Component {
                       </div>
                     </div>
                     <p className="team-name ">
-                      Shanaya Munot
+                      Shanaya Munot <br />
                       <span className="position ">Head of Events and PR</span>
                     </p>
                   </div>
@@ -514,7 +514,7 @@ class App extends Component {
                         <div className="hover-content ">
                           <h3>Alexandra Giorno</h3>
                           <p>
-                            Alexandra is a junior in the College studying
+                            Alexandra is a Junior in the College studying
                             Computer Science from Nice, France and grew up in
                             South Florida.
                             <br />
@@ -527,7 +527,7 @@ class App extends Component {
                             
                             <br />
                               <br />
-                                This semester, Alexandra is exicted to expand
+                                This semester, Alexandra is excited to expand
                                 Special Projects into several teams consisting
                                 of technical consulting, web development, and
                                 the Google Solutions Challenge.{" "}
@@ -538,7 +538,7 @@ class App extends Component {
                       </div>
                     </div>
                     <p className="team-name ">
-                      Alexandra Giorno
+                      Alexandra Giorno<br />
                       <span className="position ">
                         Head of Special Projects
                       </span>
@@ -706,11 +706,9 @@ class App extends Component {
                   <li>
                     <a href="#leadership ">Leadership</a>
                   </li>
-                  {/*
                   <li>
-                    <a href="./recruitment/index.html">Recruitment</a>
+                    <a href="./recruitment/recruitment.js">Recruitment</a>
                   </li>
-                  */}
                   <li>
                     <a href="#contact ">Contact</a>
                   </li>
