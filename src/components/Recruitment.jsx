@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 import '../css/flexboxgrid.css'
 import '../css/flexboxgrid.min.css'
@@ -7,10 +7,9 @@ import '../css/responsive.css'
 import '../css/theme.css'
 
 
-class Recruitment extends Component {
-    render(){
-        return(
-            <div>
+const Recruitment = () =>  {
+  return(
+      <div>
   {/* <div class="loader" id="preloader"></div>
     <div class="loader-text" id="preloader-text">Your interest matters. Welcome to GDT.</div>
     <div class="loader-copyright" id="preloader-copyright">&copy; Georgetown Disruptive Technology. All Rights Reserved.</div> */}
@@ -187,7 +186,7 @@ class Recruitment extends Component {
 
 
         );
-    }
+    
 }
 
 export default Recruitment;
