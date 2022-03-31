@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 import '../css/flexboxgrid.css'
@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 const url =
   "https://domains.us4.list-manage.com/subscribe/post?u=da48ecb7a5439e08f4de18e0e&amp;id=539c6d6da7";
 
-const Home = () =>  {
+function Home() {
     return (
 //       <div className="App">
 //         <div className="wrapper">

@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 
 import '../css/flexboxgrid.css'
 import '../css/flexboxgrid.min.css'
@@ -7,7 +7,7 @@ import '../css/responsive.css'
 import '../css/theme.css'
 
 
-const Recruitment = () =>  {
+function Recruitment() {
   return(
       <div>
   {/* <div class="loader" id="preloader"></div>
