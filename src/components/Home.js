@@ -1,11 +1,13 @@
 import React from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+// import { Link } from "react-router-dom";
 
-import '../css/flexboxgrid.css'
-import '../css/flexboxgrid.min.css'
-import '../css/normalize.min.css'
-import '../css/responsive.css'
-import '../css/theme.css'
+
+import '../recruitment_css/bootstrap.min.css'
+import '../recruitment_css/calendar.scss'
+import '../recruitment_css/style.css'
+import '../recruitment_css/responsive.css'
+// import '../recruitment_css/theme.css'
 import justin from '../img/justin-goldstein.jpeg'
 import achievement from '../img/001-achievement.svg'
 import ripplematch from "../img/ripple-match-logo.svg"

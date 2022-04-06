@@ -1,7 +1,6 @@
 import React from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
-
 //import './App.css';
 import {
   BrowserRouter as Router,

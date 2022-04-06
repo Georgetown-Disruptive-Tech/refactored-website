@@ -6,6 +6,16 @@ import '../css/normalize.min.css'
 import '../css/responsive.css'
 import '../css/theme.css'
 
+import '../recruitment_css/bootstrap.min.css'
+import '../recruitment_css/calendar.scss'
+import '../recruitment_css/responsive.css'
+import '../recruitment_css/style.css'
+
+import lines from "../recruitment_img/lines.svg"
+import logo from "../recruitment_img/gdt-logo.svg"
+
+// import jquery from "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+// import bootstrap from "../js/bootstrap.min.js"
 
 function Recruitment() {
   return(
@@ -18,7 +28,7 @@ function Recruitment() {
       <div className="container">
         <div className="navbar-header page-scroll"> <button type="button" className="navbar-toggle collapsed" data-target="#people-perfect-collapse" aria-expanded="false"> <span className="icon-bar" /> <span className="icon-bar" /> <span className="icon-bar" /> </button>
           <a target="_blank" href="../" className="site-logo">
-            <img src="assets/img/gdt-logo.svg" alt="gdtlogo" style={{width: '13vw'}} />
+            <img src={logo} alt="gdtlogo" style={{width: '13vw'}} />
           </a>
         </div>
         {/* /.navbar-header */}
@@ -49,7 +59,7 @@ function Recruitment() {
   <section id="recruitment" className="site-section section-form text-center">
     <div className="container">
       {/* <h3>We Are No Longer Accepting Applications for Spring 21'</h3> <img src="assets/img/lines.svg" class="img-lines" alt="lines"> */}
-      <h3>Applications are now closed</h3> <img src="assets/img/lines.svg" className="img-lines" alt="lines" />
+      <h3>Applications are now closed</h3> <img src={lines} className="img-lines" alt="lines" />
       {/* <div class="google-form">
           Want to learn more? Fill out the <b>interest form</b> below.
           <br>
@@ -73,7 +83,7 @@ function Recruitment() {
       {/* Timeline */}
       <br /><br />      <br />      <br />      <br />
       <div id="timeline">
-        <h3>recruitment timeline</h3> <img src="assets/img/lines.svg" className="img-lines" alt="lines" />
+        <h3>recruitment timeline</h3> <img src={lines} className="img-lines" alt="lines" />
         <h5>All time in ET.</h5>
         <div className="courses-container">
           {/* <div class="course done">
@@ -162,7 +172,7 @@ function Recruitment() {
       </div>
       <br /><br />
       <div className="container">
-        <h3>Contact</h3> <img src="assets/img/lines.svg" className="img-lines" alt="lines" />
+        <h3>Contact</h3> <img src={lines} className="img-lines" alt="lines" />
         <div className="row"><a target="_blank" href="mailto: disruptivetech@georgetown.edu" className="contact-app">disruptivetech@georgetown.edu</a> </div>
       </div>
     </div></section>
@@ -181,6 +191,13 @@ function Recruitment() {
   {/* /#main */}
   {/* Bootstrap core JavaScript ================================================== */}
   {/* Placed at the end of the document so the pages load faster */}
+    {/* <script src={jquery}></script>
+    <script src={bootstrap}></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="../js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="../js/jquery.countTo.min.js"></script>
+    <script src="../js/script.js"></script> */}
 </div>
 
 
