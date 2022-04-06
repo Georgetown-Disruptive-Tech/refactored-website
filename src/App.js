@@ -1,5 +1,4 @@
 import React from "react";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 //import './App.css';
 import {
@@ -8,12 +7,10 @@ import {
   Route
 } from "react-router-dom";
 
-import Home from "./components/Home";
-import Recruitment from "./components/Recruitment";
-import Error from "./components/Error";
+import Home from "./pages/Home";
+import Recruitment from "./pages/Recruitment";
+import Error from "./pages/Error";
 
-const url =
-  "https://domains.us4.list-manage.com/subscribe/post?u=da48ecb7a5439e08f4de18e0e&amp;id=539c6d6da7";
 
 function App(){
   return (
