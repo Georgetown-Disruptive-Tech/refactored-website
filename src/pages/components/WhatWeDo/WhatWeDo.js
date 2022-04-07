@@ -1,8 +1,4 @@
 import React from "react";
-
-import Education from "./Education";
-import Networking from "./Networking";
-import Projects from "./Projects";
 import ActivityDescription from "./ActivityDescription";
 
 function WhatWeDo(){
@@ -15,16 +11,24 @@ function WhatWeDo(){
                 </div>
                 </div>
                 <div className="row margin-bottom ">
-                    <Education></Education>
+                    {/* < Education /> */}
+                    <ActivityDescription name="Projects" 
+                    description="We provide opportunities for novice tech enthusiasts to
+                    learn programming skills, graphic design, and explore the
+                    thematics of different branches of tech." />
 
-                    {/* <Networking></Networking> */}
+                    {/* < Networking /> */}
                     <ActivityDescription name="Networking" 
                     description="GDT has hosted various events with key members from the
                     tech industry as well as high ranking government
                     officials. Connect with recruiters and key personnel
                     through our partnerships and events." />
                 
-                    <Projects></Projects>
+                    {/* < Projects /> */}
+                    <ActivityDescription name="Projects" 
+                    description="GDT members have the opportunity to engage in a range of
+                    partnership-driven special research, web design, and tech
+                    consulting projects to enhance and expand their skill set." />
                 </div>
             </div>
             </section>
