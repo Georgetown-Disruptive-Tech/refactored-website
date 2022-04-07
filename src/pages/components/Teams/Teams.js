@@ -1,11 +1,9 @@
 import React from "react";
-import Marketing from "./Marketing";
-import Operations from "./Operations";
-import Events from "./Events";
-import SpecialProjects from "./SpecialProjects";
 import TeamDescription from "./TeamDescription";
 import shoppingbag from "../../../img/004-shopping-bag.svg"
 import idea from "../../../img/003-idea.svg"
+import achievement from '../../../img/001-achievement.svg'
+import pencil from "../../../img/002-pencil.svg"
 
 function Teams(){
     return(
@@ -23,9 +21,22 @@ function Teams(){
                 <div className="container">
                     <div className="row margin-bottom-small center-xs">
                     
-                        <Operations />
+                        {/* <Operations /> */}
+                        <TeamDescription imageLocation={achievement} 
+                        teamName="Operations"
+                        description="Responsible for the day-to-day running and logistics of
+                        the club. Oversight on budgeting, recruiting, and the
+                        newsletter. Often works in collaboration with other
+                        teams to ensure operational efficiency."
+                        />
 
-                        <Marketing />
+                        {/* <Marketing /> */}
+                        <TeamDescription imageLocation={pencil} 
+                        teamName="Marketing" 
+                        description="Working to maintain external and internal network, in
+                        order to cultivate relationships and ensure
+                        communicative clarity. Responsible for securing event
+                        guests, alumni relations, and internal communication." />
                     
                     </div>
                     <div className="row center-xs">
