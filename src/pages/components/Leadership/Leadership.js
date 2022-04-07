@@ -44,7 +44,23 @@ function Leadership(){
                             Georgetown. </div>
                     } />
 
-                    <VP />
+                    <BoardMember name='Irini Fournier Vardinoyannis' 
+                        imageLocation={carlo} 
+                        position='Vice President'
+                        description={
+                            <div>
+                                Irini is a Sophomore in the MSB studying marketing
+                                and Computer Science.
+                                <br />
+                                <br />
+                                Irini generates online growth strategies and
+                                strengthens the brand design for several
+                                international sustainable companies/startups
+                                through her digital branding and marketing
+                                agency, GTech.{" "}
+                            </div>
+                    } />
+
 
                     <HeadOps />
                 </div>
