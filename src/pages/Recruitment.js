@@ -1,10 +1,10 @@
 import React from "react"
 
-import '../css/flexboxgrid.css'
-import '../css/flexboxgrid.min.css'
-import '../css/normalize.min.css'
-import '../css/responsive.css'
-import '../css/theme.css'
+// import '../css/flexboxgrid.css'
+// import '../css/flexboxgrid.min.css'
+// import '../css/normalize.min.css'
+// import '../css/responsive.css'
+// import '../css/theme.css'
 
 import '../recruitment_css/bootstrap.min.css'
 import '../recruitment_css/calendar.scss'

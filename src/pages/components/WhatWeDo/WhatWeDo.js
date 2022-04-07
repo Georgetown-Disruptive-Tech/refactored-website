@@ -3,6 +3,7 @@ import React from "react";
 import Education from "./Education";
 import Networking from "./Networking";
 import Projects from "./Projects";
+import ActivityDescription from "./ActivityDescription";
 
 function WhatWeDo(){
     return(
@@ -16,7 +17,12 @@ function WhatWeDo(){
                 <div className="row margin-bottom ">
                     <Education></Education>
 
-                    <Networking></Networking>
+                    {/* <Networking></Networking> */}
+                    <ActivityDescription name="Networking" 
+                    description="GDT has hosted various events with key members from the
+                    tech industry as well as high ranking government
+                    officials. Connect with recruiters and key personnel
+                    through our partnerships and events." />
                 
                     <Projects></Projects>
                 </div>

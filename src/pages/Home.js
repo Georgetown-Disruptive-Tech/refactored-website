@@ -7,7 +7,7 @@ import '../css/normalize.min.css'
 import '../css/responsive.css'
 import '../css/theme.css'
 import banner from '../img/banner.svg'
-
+import ink_gif from "../img/ink.gif"
 
 import { Link } from "react-router-dom";
 import TopMenu from "./components/TopMenu";
@@ -19,6 +19,8 @@ import Leadership from "./components/Leadership/Leadership";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/Footer";
+
+
 
 
 
@@ -56,9 +58,10 @@ function Home() {
     <div className="App">
     
         <div className="hero flex middle-xs" 
+        // style="height:100%; background-image: linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0)), url('./img/ink.gif'); "
         style={{
             height: '100%', 
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0)), url("../img/ink.gif")'}}
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0)), url(${ink_gif})`}}
         >
         <div className="hero-text "></div>
         {/* <img src={banner} /> */}

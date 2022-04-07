@@ -3,6 +3,9 @@ import Marketing from "./Marketing";
 import Operations from "./Operations";
 import Events from "./Events";
 import SpecialProjects from "./SpecialProjects";
+import TeamDescription from "./TeamDescription";
+import shoppingbag from "../../../img/004-shopping-bag.svg"
+import idea from "../../../img/003-idea.svg"
 
 function Teams(){
     return(
@@ -26,10 +29,26 @@ function Teams(){
                     
                     </div>
                     <div className="row center-xs">
-                    
-                        <Events />
+                    {/* Justin: You can reuse components like this
+                    each attribute of the Team Description tag
+                    gets passed into the props argument for the 
+                    Team Description function in TeamDescription.js
+                    */}
+                        {/* <Events /> */}
+                        <TeamDescription imageLocation={idea} 
+                        teamName="Events"
+                        description="Conceptualizes and organizes events, often working in
+                        conjunction with the Public Relations team to formulate
+                        a calendar. Lead team on the day of events."
+                        />
 
-                        <SpecialProjects />
+                        {/* <SpecialProjects /> */}
+                        <TeamDescription imageLocation={shoppingbag} 
+                        teamName="Special Projects" 
+                        description="Provides education for novice tech enthusiasts and
+                        spearheads internal research projects, including making
+                        this website. Work with Google Student Developers
+                        community." />
 
                     </div>
                 </div>
