@@ -7,6 +7,7 @@ import HeadEvents from "./HeadEvents";
 import HeadSP from "./HeadSP";
 import BoardMember from "./BoardMember";
 import justin from '../../../img/justin-goldstein.jpeg'
+import carlo from '../../../img/carlo-dwek.jpeg'
 
 function Leadership(){
     return(
