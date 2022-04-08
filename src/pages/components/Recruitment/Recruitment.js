@@ -6,13 +6,14 @@ import React from "react"
 // import '../css/responsive.css'
 // import '../css/theme.css'
 
-import '../recruitment_css/bootstrap.min.css'
-import '../recruitment_css/calendar.scss'
-import '../recruitment_css/responsive.css'
-import '../recruitment_css/style.css'
+import '../../../recruitment_css/bootstrap.min.css'
+import '../../../recruitment_css/calendar.scss'
+import '../../../recruitment_css/responsive.css'
+import '../../../recruitment_css/style.css'
 
-import lines from "../recruitment_img/lines.svg"
-import logo from "../recruitment_img/gdt-logo.svg"
+import lines from "../../../recruitment_img/lines.svg"
+import logo from "../../../recruitment_img/gdt-logo.svg"
+import EventDescription from "./EventDescription"
 
 // import jquery from "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
 // import bootstrap from "../js/bootstrap.min.js"
@@ -107,6 +108,12 @@ function Recruitment() {
               <a target="_blank" href="https://georgetown.zoom.us/j/91728742995"> <button className="cbtn" style={{right: '5%'}}>Zoom</button> </a>
             </div>
           </div>
+          <EventDescription day="Sunday" startTime="11:00AM" 
+          endTime="2:00PM"
+          date="Jan. 23rd"
+          name="Cab Fair II"
+          link="https://georgetown.zoom.us/j/91728742995"
+          />
           <div className="course">
             <div className="course-preview">
               {/**/}
