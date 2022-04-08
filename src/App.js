@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Recruitment from "./pages/Recruitment";
+import Recruitment from "./pages/components/Recruitment/Recruitment";
 import Error from "./pages/Error";
 
 
