@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // import '../css/flexboxgrid.css'
 // import '../css/flexboxgrid.min.css'
@@ -19,6 +19,23 @@ import EventDescription from "./EventDescription";
 // import bootstrap from "../js/bootstrap.min.js"
 
 function Recruitment() {
+  const [opacity, setOpacity] = React.useState(0);
+  const controlNavBar = () => {
+    // calculate opacity from scroll
+    const scroll = window.scrollY;
+    const maxScroll = 500;
+    const opacity = Math.min(1, scroll / maxScroll);
+    setOpacity(opacity);
+    // calculate fading white background from scroll
+
+
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavBar);
+    return () => window.removeEventListener("scroll", controlNavBar);
+  }, []);
+
   return (
     <div>
       {/* <div class="loader" id="preloader"></div>
@@ -27,6 +44,9 @@ function Recruitment() {
       <header
         id="masthead"
         className="site-header"
+        style={{
+          backgroundColor: `rgba(255, 255, 255, ${opacity})`,
+        }}
         data-anchor-target=".hero-recruitment"
         data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0); color:white;"
         data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);"
@@ -138,6 +158,7 @@ function Recruitment() {
                   <a
                     target="_blank"
                     href="https://georgetown.zoom.us/j/91728742995"
+                    rel="noreferrer"
                   >
                     {" "}
                     <button className="cbtn" style={{ right: "5%" }}>
@@ -169,6 +190,7 @@ function Recruitment() {
                   <a
                     target="_blank"
                     href="https://georgetown.zoom.us/j/99472553483"
+                    rel="noreferrer"
                   >
                     {" "}
                     <button className="cbtn" style={{ right: "5%" }}>
