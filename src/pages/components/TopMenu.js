@@ -10,8 +10,11 @@ function TopMenu(){
                 <li>
                     <Link to="/recruitment">Recruitment</Link>
                 </li>
-                <li><a href="#leadership">Leadership</a></li>
-                <li><a href="#teams">Our Teams</a></li>
+                <li>
+                    <Link to="/newsletter">News Letter</Link>
+                </li>
+                <li><a href="/#leadership">Leadership</a></li>
+                <li><a href="/#teams">Our Teams</a></li>
             </ul>
         </div>
     );

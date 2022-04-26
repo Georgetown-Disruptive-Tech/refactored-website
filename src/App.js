@@ -8,9 +8,10 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Recruitment from "./pages/components/Recruitment/Recruitment";
+import Page from "./pages/components/Page";
 import Error from "./pages/Error";
-
+import Recruitment from "./pages/components/Recruitment/Recruitment";
+import NewsLetter from './pages/components/NewsLetter/NewsLetter';
 
 function App(){
   return (
@@ -18,7 +19,8 @@ function App(){
       <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route path="/recruitment" element={<Recruitment />} />
+          <Route path="/recruitment" element={<Page title="Recruitment" pageContent={<Recruitment/>}/>} />
+          <Route path="/newsletter" element={<Page title="News Letter" pageContent={<NewsLetter/>}/>} />
 
           <Route path="*" element={<Error />} />
       </Routes>

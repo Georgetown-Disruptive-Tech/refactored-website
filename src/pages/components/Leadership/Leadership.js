@@ -1,11 +1,12 @@
 import React from "react";
 import BoardMember from "./BoardMember";
 import justin from '../../../img/justin-goldstein.jpeg'
-import carlo from '../../../img/carlo-dwek.jpeg'
+
+import irini from '../../../img/irini.jpeg'
 import anna from '../../../img/anna-gasner.JPG'
-import minseo from '../../../img/minseo-kang1.jpg' //need to change
+import sid from '../../../img/sid-sundaram.jpeg' //need to change
 import shanaya from '../../../img/Shanaya-Munot2.jpeg'
-import andrew from '../../../img/andrew-rozanov.jpeg' //need to change
+import alex from '../../../img/alex-giorno.jpeg' //need to change
 
 function Leadership(){
     return(
@@ -29,9 +30,9 @@ function Leadership(){
                             Computer Science, and he is from Connecticut.
                             <br />
                             <br />
-                            Justin is interested in Neural Information
-                            Retrieval, Machine Learning, and software
-                            development.
+                            Justin is interested in Information
+                            Retrieval, Natural Language Processing, 
+                            Machine Learning, and software development.
                             
                             
                             He loves to run, go to the gym, and work with
@@ -45,7 +46,7 @@ function Leadership(){
 
                     {/* <Vice President /> */}
                     <BoardMember name='Irini Fournier Vardinoyannis' 
-                        imageLocation={carlo} 
+                        imageLocation={irini} 
                         position='Vice President'
                         description={
                             <div>
@@ -96,7 +97,7 @@ function Leadership(){
                 
                     {/* <Head of Marketing /> */}
                     <BoardMember name='Sid Sundaram' 
-                        imageLocation={minseo} 
+                        imageLocation={sid} 
                         position='Head of Marketing'
                         description={
                             <div>
@@ -141,7 +142,7 @@ function Leadership(){
 
                     {/* <Head of Special Projects /> */}
                     <BoardMember name='Alexandra Giorno' 
-                        imageLocation={andrew} 
+                        imageLocation={alex} 
                         position='Head of Special Projects'
                         description={
                             <div>
