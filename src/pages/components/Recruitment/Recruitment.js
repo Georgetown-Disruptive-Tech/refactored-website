@@ -87,65 +87,29 @@ function Recruitment() {
         <h3>recruitment timeline</h3> <img src={lines} className="img-lines" alt="lines" />
         <h5>All time in ET.</h5>
         <div className="courses-container">
-          {/* <div class="course done">
-                  <div class="course-preview">
-                      <h6>Tuesday <br>0400PM 0600PM</h6>
-                      <h4>Sept. 01st</h4>
-                  </div>
-                  <div class="course-info">
-                      <h2>Cab Fair</h2>
-                      <button class="cbtn">Passed</button>
-                  </div>
-              </div> */}
-          <div className="course">
-            <div className="course-preview">
-              <h6>Sunday <br />11:00AM 2:00PM ET</h6>
-              <h4>Jan. 23rd</h4>
-            </div>
-            <div className="course-info">
-              <h2>Cab Fair II</h2>
-              {/*  */}
-              <a target="_blank" href="https://georgetown.zoom.us/j/91728742995"> <button className="cbtn" style={{right: '5%'}}>Zoom</button> </a>
-            </div>
-          </div>
+         
           <EventDescription day="Sunday" startTime="11:00AM" 
           endTime="2:00PM"
           date="Jan. 23rd"
           name="Cab Fair II"
           link="https://georgetown.zoom.us/j/91728742995"
           />
-          <div className="course">
-            <div className="course-preview">
-              {/**/}
-              <h6>Tuesday <br />6:00PM ET</h6>
-              <h4>Jan. 25th</h4>
-            </div>
-            <div className="course-info">
-              <h2>Info Session</h2>
-              {/*  */}
-              <a target="_blank" href="https://georgetown.zoom.us/j/99472553483"> <button className="cbtn" style={{right: '5%'}}>Zoom</button> </a>
-            </div>
-          </div>
-          <div className="course">
-            <div className="course-preview">
-              <h6>Wednesday</h6>
-              <h4>Jan. 26th</h4>
-            </div>
-            <div className="course-info">
-              <h2>Coffee Chat I</h2>
-              {/* <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSexuJnXeCI6bmSsmTPJPckdRSpnNxWgeTvOWiGQum0_hfuXaA/viewform"> <button class="cbtn">Sign up</button> </a> */}
-            </div>
-          </div>
-          <div className="course">
-            <div className="course-preview">
-              <h6>Thursday</h6>
-              <h4>Jan. 27th</h4>
-            </div>
-            <div className="course-info">
-              <h2>Coffee Chat II</h2>
-              {/* <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSexuJnXeCI6bmSsmTPJPckdRSpnNxWgeTvOWiGQum0_hfuXaA/viewform"> <button class="cbtn">Sign up</button> </a> */}
-            </div>
-          </div>
+          <EventDescription day="Tuesday" startTime="6:00PM"
+          date="Jan. 25th"
+          name="Info Session"
+          link="https://georgetown.zoom.us/j/99472553483"
+          />
+          <EventDescription
+          day = "Wednesday"
+          date="Jan. 26th"
+          name="Coffee Chat I"
+          />
+          <EventDescription
+          name="Coffee Chat II"
+          day="Thursday"
+          date="Jan. 27th"
+          />
+          {/* Working on states right now */}
           <div className="course">
             <div className="course-preview">
               <h6>Friday <br />11:59</h6>

@@ -11,7 +11,9 @@ function EventDescription(props) {
             <div className="course-info">
               <h2>{props.name}</h2>
               {/*  */}
+              {props.link &&
               <a target="_blank" href={props.link}> <button className="cbtn" style={{right: '5%'}}>Zoom</button> </a>
+            }
             </div>
           </div>
     );
